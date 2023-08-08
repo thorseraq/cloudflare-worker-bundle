@@ -1,0 +1,8 @@
+name = "trace-upload"
+main = "src/index.js"
+compatibility_date = "2023-08-08"
+node_compat = true
+#compatibility_flags = [ "nodejs_compat" ]
+
+[vars]
+GCP_PROJECT_ID = "affine-346417"

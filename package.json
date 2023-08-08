@@ -1,0 +1,15 @@
+{
+  "name": "trace-upload",
+  "version": "0.0.0",
+  "devDependencies": {
+    "wrangler": "2.14.0"
+  },
+  "dependencies": {
+    "google-auth-library": "^9.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  }
+}
